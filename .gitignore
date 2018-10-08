@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/workspace.xml
+microservice-simple-consumer-movie/src/main/java/com/example/cloud/microservicesimpleconsumermovie/web/form/
+microservice-simple-consumer-movie/src/main/resources/static/
+microservice-simple-consumer-movie/src/main/resources/templates/
+microservice-simple-provider-user/src/main/resources/static/
+microservice-simple-provider-user/src/main/resources/templates/
