@@ -1,12 +1,8 @@
-package com.example.cloud.microservicesimpleconsumermovie.entity;
+package com.example.cloud.entity;
 
 import lombok.Data;
 
 import java.math.BigDecimal;
-
-/**
- * @author zhumingli
- */
 @Data
 public class User {
   private Long id;
@@ -18,7 +14,6 @@ public class User {
   private Short age;
 
   private BigDecimal balance;
-
 
 
 }
