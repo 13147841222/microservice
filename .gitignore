@@ -23,3 +23,12 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+/.idea/
+/.settings/
+/microservice-consumer-movie/.mvn/
+/microservice-consumer-movie/.idea/
+/microservice-discovery-eureka/.settings/
+/microservice-discovery-eureka/.idea/
+/microservice-provider-user/.idea/
+/microservice-provider-user/target/
+/microservice-provider-user/.mvn/
