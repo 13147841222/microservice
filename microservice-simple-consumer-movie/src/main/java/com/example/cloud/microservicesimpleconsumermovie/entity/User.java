@@ -9,15 +9,16 @@ import java.math.BigDecimal;
  */
 @Data
 public class User {
-  private Long id;
+    private Long id;
 
-  private String username;
 
-  private String name;
+    private String username;
 
-  private Short age;
+    private String name;
 
-  private BigDecimal balance;
+    private Short age;
+
+    private BigDecimal balance;
 
 
 

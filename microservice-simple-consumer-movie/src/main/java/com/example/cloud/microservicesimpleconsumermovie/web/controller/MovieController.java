@@ -14,14 +14,15 @@ import org.springframework.web.client.RestTemplate;
  */
 @RestController
 public class MovieController {
-  @Autowired
-  private RestTemplate restTemplate;
+    @Autowired
+    private RestTemplate restTemplate;
 
-  @Value("${user.userServicePath}")
-  private String userServicePath;
+    @Value("${user.userServicePath}")
+    private String userServicePath;
 
-  @GetMapping("/movie/{id}")
-  public User findById(@PathVariable Long id) {
-    return this.restTemplate.getForObject(this.userServicePath + id, User.class);
-  }
+    @GetMapping("/movie/{id}")
+
+    public User findById(@PathVariable Long id) {
+        return this.restTemplate.getForObject(this.userServicePath + id, User.class);
+    }
 }
